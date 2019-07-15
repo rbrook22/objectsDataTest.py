@@ -2,10 +2,21 @@
 #What is the value of the expression 4 * (6 + 5)
 
 # #What is the value of the expression 4 * 6 + 5 
+valueA = 29
 
+print('The answer to the expression above is: %s'%valueA)
 # #What is the value of the expression 4 + 6 * 5 
+valueB = 34
 
+print('The answer to the expression above is: %s'%valueB)
 # What is the type of the result of the expression 3 + 1.5 + 4?
+print('What is the type of the result of the expression 3 + 1.5 + 4?')
+
+expression= 3 + 1.5 + 4
+
+print(expression)
+
+print('The answer would be: %s' %type(expression))
 
 # What would you use to find a number’s square root, as well as its square?
 
