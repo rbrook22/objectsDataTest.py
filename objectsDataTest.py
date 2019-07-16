@@ -32,28 +32,47 @@ s = 'hello'
 # # Print out 'e' using indexing
 print(s[1])
 # Reverse the string 'hello' using slicing:
+print(s[::-1])
 
-
-# s ='hello'
-# # Reverse the string using slicing
 # Given the string hello, give two methods of producing the letter 'o' using indexing.
 
 # s ='hello'
 # # Print out the 'o'
 # # Method 1:
+print('Printing out the letter o using 1 methond: %s' %s[4])
 
 # # Method 2:
+print('Printing out the letter o using second methond: %s' %s[-1])
 
 # Build this list [0,0,0] two separate ways.
 # # Method 1:
+list1=[0,0,0]
+
+print(list1)
 
 # # Method 2:
+list2=[]
 
+list2.append(0)
+list2.append(0)
+list2.append(0)
+print(list2)
 # Reassign 'hello' in this nested list to say 'goodbye' instead:
-# list3 = [1,2,[3,4,'hello']]
+list3 = [1,2,[3,4,'hello']]
+
+print(list3)
+
+print('Reassigning hello to be goodbye')
+
+list3[2][2] = 'goodbye'
+
+print(list3)
 
 # Sort the list below:
-# list4 = [5,3,4,6,1]
+list4 = [5,3,4,6,1]
+print(list4)
+list4.sort()
+print(list4)
 
 # Using keys and indexing, grab the 'hello' from the following dictionaries:
 # d = {'simple_key':'hello'}
