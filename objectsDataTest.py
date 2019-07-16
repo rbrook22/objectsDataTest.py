@@ -1,5 +1,6 @@
 #Answer these 3 questions without typing code. Then type code to check your answer.
 #What is the value of the expression 4 * (6 + 5)
+import math
 
 # #What is the value of the expression 4 * 6 + 5 
 valueA = 29
@@ -19,12 +20,19 @@ print(expression)
 print('The answer would be: %s' %type(expression))
 
 # What would you use to find a number’s square root, as well as its square?
+print('Find the square root of: 89')
 
+valueC = 89
+
+sqrtValueC = math.sqrt(valueC)
+
+print('The square root of 89 is: %s' %sqrtValueC)
 # Given the string 'hello' give an index command that returns 'e'. Enter your code in the cell below:
-
-# s = 'hello'
+s = 'hello'
 # # Print out 'e' using indexing
+print(s[1])
 # Reverse the string 'hello' using slicing:
+
 
 # s ='hello'
 # # Reverse the string using slicing
